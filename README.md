@@ -1,6 +1,6 @@
 # 📦 Módulo ReiDoCadastro
 
-Bem-vindo ao **ReiDoCadastro**, um módulo JavaScript desenvolvido em ES6 para gerenciamento de cadastros de empresas e clientes! 🎉
+Bem-vindo ao **ReiDoCadastro 2.0**, um módulo JavaScript desenvolvido em ES6 para gerenciamento de cadastros de empresas e clientes! 🎉
 
 ## 🚀 Funcionalidades
 
@@ -13,24 +13,20 @@ Bem-vindo ao **ReiDoCadastro**, um módulo JavaScript desenvolvido em ES6 para g
 ## 🛠 Estrutura do Projeto
 
 ```
-📂 models/
+📂 Rei_do_Cadastro_2.0/
    ├── ReiDoCadastro.js  # Definição das classes Cliente, Empresa, Endereço e Telefone
-   ├── Telefone.js       # Classe Telefone
-   ├── Endereco.js       # Classe Endereco
-   ├── Empresa.js        # Classe Empresa
-   ├── Cliente.js        # Classe Cliente
-📂 tests/
-   ├── test.js           # Arquivo de testes
+
+├── test.js           # Arquivo de testes
 📜 README.md             # Documentação do projeto
 ```
 
 ## 📜 Exemplo de Uso
 
 ```javascript
-import { Cliente } from "./models/ReiDoCadastro.js";
-import { Empresa } from "./models/ReiDoCadastro.js";
-import { Telefone } from "./models/ReiDoCadastro.js";
-import { Endereco } from "./models/ReiDoCadastro.js";
+import { Cliente } from "./Rei_do_Cadastro_2.0/ReiDoCadastro.js";
+import { Empresa } from "./Rei_do_Cadastro_2.0/ReiDoCadastro.js";
+import { Telefone } from "./Rei_do_Cadastro_2.0/ReiDoCadastro.js";
+import { Endereco } from "./Rei_do_Cadastro_2.0/ReiDoCadastro.js";
 
 // Criando um endereço
 const enderecoEmpresa = new Endereco("SP", "São Paulo", "Av. Paulista", 123);
@@ -47,29 +43,7 @@ empresa.clientes.add(cliente1);
 console.log(empresa.detalhe());
 ```
 
-## 🔧 Como Executar
-
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/ReiDoCadastro.git
-   ```
-2. Navegue até a pasta do projeto:
-   ```sh
-   cd ReiDoCadastro
-   ```
-3. Execute os testes com Node.js:
-   ```sh
-   node tests/test.js
-   ```
-
-## 💾 Histórico de Commits
-
-- 🎉 Inicialização do repositório
-- 🚀 Implementação das classes principais
-- 🔥 Adição dos testes
-- 📖 Atualização da documentação
-
 ## 📜 Licença
 
-Este projeto está licenciado sob a **MIT License**. Sinta-se livre para usar e modificar! 😃
+Este projeto foi feito para fins acadêmicos. Sinta-se livre para usar e modificar! 😃
 
