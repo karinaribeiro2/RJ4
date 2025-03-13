@@ -1,4 +1,4 @@
-const { Cliente, Telefone, Endereco, Empresa } = require("./Rei_do_Cadastro/ReiDoCadastro.js");
+const { Cliente, Telefone, Endereco, Empresa } = require("./Rei_do_Cadastro_2.0/ReiDoCadastro.js");
 
 const telefone1Cliente1 = new Telefone('12', '999999999');
 const telefone2Cliente1 = new Telefone('11', '888888888');
